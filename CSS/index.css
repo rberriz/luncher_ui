@@ -149,6 +149,11 @@ h3 {
   font-size: 28px;
   color: #222222;
 }
+h1,
+h2 {
+  font-weight: bold;
+  font-size: 32px;
+}
 .navigation {
   max-width: auto;
   height: 50px;
@@ -213,4 +218,40 @@ h3 {
   color: #FFFFFF;
   text-align: center;
   padding-top: 20px;
+}
+.linkButtonImg {
+  width: 350px;
+  height: 350px;
+  padding-left: 50px;
+  padding-right: 50px;
+  filter: blur(3px);
+}
+.linkButtonImg:hover {
+  filter: blur(0px);
+}
+.linkButtons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#titleBlock {
+  width: 75%;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  padding-left: 220px;
+  padding-top: 80px;
+}
+.fadeButton {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#logo {
+  width: 750px;
+  height: 150px;
 }
