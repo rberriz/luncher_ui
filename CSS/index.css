@@ -250,8 +250,66 @@ h2 {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  padding-bottom: 50px;
 }
 #logo {
   width: 750px;
   height: 150px;
+}
+.servicesAbout {
+  width: 80%;
+}
+.madeUpName {
+  display: flex;
+  flex-direction: column;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.desktopS {
+  display: block;
+  width: 20%;
+  height: 20%;
+}
+.mobileS {
+  display: none;
+}
+.servicesBar {
+  display: flex;
+  justify-content: center;
+  align-content: space-between;
+  width: 80%;
+}
+.container .tabLinks {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 500px;
+}
+.container .tabLinks .link {
+  width: 20%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  border: 1px solid black;
+  font-weight: bold;
+  font-size: 28px;
+}
+.container .tabLinks .link :hover {
+  background-color: #222222;
+  color: #fff;
+}
+.tabContent {
+  width: 100%;
+  margin-bottom: 20px;
+}
+.tabContent .content {
+  display: none;
+  padding-right: 10%;
+}
+.tabContent .tabShow {
+  display: flex;
+}
+.selected {
+  display: visible;
 }
