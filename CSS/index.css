@@ -169,7 +169,7 @@ h2 {
 }
 .navbox {
   width: 100vw;
-  height: 78.5vh;
+  height: 100vh;
   position: absolute;
   display: flex;
   flex-direction: column;
@@ -191,7 +191,7 @@ h2 {
 }
 .menuClose {
   display: none;
-  right: 0px;
+  margin-right: 85%;
 }
 .footer-block {
   width: 100%;
@@ -260,10 +260,14 @@ h2 {
   width: 80%;
 }
 .madeUpName {
+  margin: 0 auto;
   display: flex;
+  justify-content: center;
+  align-items: center;
   flex-direction: column;
   padding-left: 10%;
   padding-right: 10%;
+  padding-top: 15%;
 }
 .desktopS {
   display: block;
@@ -285,17 +289,17 @@ h2 {
   padding-top: 500px;
 }
 .container .tabLinks .link {
-  width: 20%;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  width: 25%;
+  padding-top: 25px;
+  padding-bottom: 25px;
   text-align: center;
   margin-top: 10px;
   margin-bottom: 20px;
   border: 1px solid black;
   font-weight: bold;
-  font-size: 28px;
+  font-size: 35px;
 }
-.container .tabLinks .link :hover {
+.link:hover {
   background-color: #222222;
   color: #fff;
 }
@@ -312,4 +316,11 @@ h2 {
 }
 .selected {
   display: visible;
+}
+.mission {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
 }
